@@ -587,7 +587,7 @@ body{
 
 /* from this position is media css media querry */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px),(max-width: 485px) {
 
     .but{
         position: fixed;
