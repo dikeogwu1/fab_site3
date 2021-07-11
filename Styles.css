@@ -27,6 +27,11 @@ body{
     bottom: 20px;
 }
 
+.js-img{
+    width: 100px;
+    height: 100px;
+}
+
 .page-des{
     font-size: 1em;
     font-weight: bold;
