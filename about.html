@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <div class="title">
+        <h3 class="item">How to play the Game</h3>
+        <div class="game-text">
+          <p>
+            In this game, if on your first click of the button you score 7 or 11
+            that is a <b>win</b> on first click, but if you score 2, 3 or 12 on
+            your fist click, that is a <b>lose</b> on first click, but if on
+            your fist click you score 4,5 6, 8, 9 and 10, that number becomes
+            your wining number,and you must continue clicking the button ontill
+            you get the same number again then you <b>win</b>, and if on your
+            seventh click you dont get the same number, then its
+            <b>Game over.</b>
+          </p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="alert-box">
+          <div class="alert">click to play</div>
+        </div>
+        <hr />
+        <div class="btn">
+          <button class="play">Play</button>
+        </div>
+        <div class="score">
+          you scored
+          <h1><span id="num">0</span> : <span id="num-1"> 0</span></h1>
+          odds
+        </div>
+        <div class="point">
+          <h3><span id="point-num">you have 8 point left</span></h3>
+        </div>
+      </div>
+    </header>
+
+    <script src="app.js"></script>
+  </body>
+</html>
